@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding:0;
+    outline: none;
+    box-sizing: border-box;
     
 }
 body{
@@ -11,4 +13,6 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+   
 }

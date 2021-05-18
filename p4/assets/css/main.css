@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'FontAwesome';
+  src: url("@{fa-font-path}/fontawesome-webfont.eot?v=3.0.1");
+  src: url("@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("@{fa-font-path}/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("@{fa-font-path}/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "vazir";
   src: url("../fonts/vazir.eot");
   /* IE9 Compat Modes .eot*/
@@ -9,6 +17,8 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,5 +29,72 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+}
+
+.search {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search .input {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.search .input::placeholder {
+  color: white;
+}
+
+.search .input.active {
+  width: 300px;
+}
+
+.search .btn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+
+.search .btn.active {
+  right: 250px;
 }
 /*# sourceMappingURL=main.css.map */

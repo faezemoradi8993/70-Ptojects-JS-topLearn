@@ -1,3 +1,15 @@
+// @fa-font-path: "../font";
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?v=3.0.1');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('@{fa-font-path}/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('@{fa-font-path}/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
     font-family: "vazir";
     src: url('../fonts/vazir.eot'); /* IE9 Compat Modes .eot*/

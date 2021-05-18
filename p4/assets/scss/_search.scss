@@ -1,0 +1,69 @@
+.search {
+    position: relative;
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .input {
+
+        width: 50px;
+        height: 50px;
+       border: none;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        padding: 10px 15px;
+        &::placeholder{
+            color:white;
+        }
+        transition: all 0.6s ease;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -ms-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+        &.active {
+
+            width: 300px;
+
+        }
+    }
+
+    .btn {
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        transition: all 0.6s ease;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -ms-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+
+        &.active {
+            right: 250px;
+
+        }
+    }
+}
