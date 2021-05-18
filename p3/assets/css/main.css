@@ -20,4 +20,42 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
+.container {
+  color: #0e0d0d;
+  background-color: #f7f2f2;
+  background-image: url("/assets/images/back9.png");
+  background-size: 100px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.container .content p {
+  padding-bottom: 20px;
+}
+
+.container .content a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background-color: #69115b;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
 /*# sourceMappingURL=main.css.map */
