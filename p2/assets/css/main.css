@@ -20,4 +20,52 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+section video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section .selection {
+  position: absolute;
+  width: 50vw;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section .selection li {
+  width: 140px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+section .selection li .option {
+  cursor: pointer;
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
+  opacity: 1;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
 /*# sourceMappingURL=main.css.map */

@@ -20,7 +20,7 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background-color: aqua;
+  background-color: white;
 }
 
 .action {
@@ -47,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 
 .action .profile img {
@@ -72,7 +72,8 @@ body {
   position: absolute;
   top: 158px;
   width: 300px;
-  background-color: white;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  z-index: 2;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -87,7 +88,7 @@ body {
 }
 
 .action .menu.active {
-  opacity: 1;
+  opacity: 0.7;
   transform: translateY(0px);
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -102,7 +103,7 @@ body {
   right: 50px;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);

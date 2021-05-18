@@ -1,0 +1,48 @@
+section{
+    height: 100%;
+    width: 100%;
+
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .selection{
+        position: absolute;
+        width: 50vw;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+         li{
+           width: 140px;
+           height: 110px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           background-color: white;
+        .option{
+            cursor: pointer;
+            width: 130px;
+            height: 100px;
+            object-fit: cover;
+            opacity: 1;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+//  &.active{
+//                 opacity: 1;
+//             }
+
+        }
+       }
+    }
+}

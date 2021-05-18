@@ -5,11 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>project 1-70</title>
+    <title>project 2-70</title>
 </head>
 <body>
-    <h1>سلام دنیا</h1>
-
+   <section >
+       <video  id="slider" autoplay loop muted >
+           <source src="./assets/videos/1.mp4" type="video/mp4">
+       </video>
+       <ul class="selection">
+           <li>
+               <img class="option active" onclick="slider('/1.mp4')" src="./assets/images/1.PNG" alt="">
+           </li>
+           <li>
+               <img  class="option " onclick="slider('/2.mp4')" src="./assets/images/2.PNG" alt="">
+           </li>
+           <li>
+               <img class="option " onclick="slider('/3.mp4')" src="./assets/images/3.PNG" alt="">
+           </li>
+           <li>
+               <img class="option " onclick="slider('/4.mp4')" src="./assets/images/4.PNG" alt="">
+           </li>
+       </ul>
+   </section>
     <script src="./assets/js/App.js"></script>
 </body>
 </html>
