@@ -1,0 +1,30 @@
+header {
+
+    text-align: center;
+    background-color: $primery-color;
+    box-shadow: 0px 1px 20px 0px black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 26px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 20px;
+        background-color: antiquewhite;
+
+        .progress-bar {
+            width: 0%;
+            height: 20px;
+            background-image: linear-gradient(to right, #a136d3 0%, #a70722 100%);
+
+        }
+    }
+}
