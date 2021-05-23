@@ -1,7 +1,7 @@
 .container {
     color: rgb(14, 13, 13);
     background-color: rgb(247, 242, 242);
-    background-image: url("/assets/images/back9.png");
+    background-image: url("../images/back9.png");
     background-size: 100px;
     object-fit: contain;
     width: 100%;
@@ -9,23 +9,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     .content {
         text-align: center;
-
        img{
            width:400px;
            object-fit:cover;
        }
         h3 {   
-
         }
-
         p {
             padding-bottom: 20px;
-
         }
-
         a {
             text-decoration: none;
             color: white;
