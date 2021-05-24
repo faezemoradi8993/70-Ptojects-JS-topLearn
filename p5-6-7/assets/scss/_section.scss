@@ -35,8 +35,8 @@ section {
             }
 
             p {
-                font-size: 18px;
-                text-align: right;
+                font-size: 20px;
+             
                 padding: 30px;
 
             }
@@ -45,13 +45,16 @@ section {
 
         }
     }
-
-
-
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+
+
+@media screen and (max-width: 1261px) {
     .row {
         flex-direction: column;
+       
     }
 }

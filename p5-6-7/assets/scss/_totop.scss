@@ -2,8 +2,8 @@
     display: flex;
     opacity: 0;
     text-decoration: none;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     font-size: 30px;
     color: white;
     cursor: pointer;
@@ -14,7 +14,7 @@
     -o-border-radius: 50%;
     position: fixed;
     bottom: 0%;
-    right: 2%;
+    right: 15px;
     background-image: linear-gradient(to right, #a136d3 0%, #a70722 100%);
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 
     &.active {
         opacity: 1;
-        bottom: 5%;
+        bottom: 10px;
         // pointer-events: normal;
     }
 }

@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -49,7 +49,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 85%;
+    width: 87%;
   }
 }
 
@@ -64,8 +64,8 @@ body {
   width: 50px;
   height: 50px;
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 32px;
+  right: 20px;
   color: #fffdfd;
   z-index: 2;
   font-size: 40px;
@@ -153,6 +153,7 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
   background-image: linear-gradient(to top, #a136d3 0%, #a70722 100%);
   transform: scaleY(0);
   -webkit-transform: scaleY(0);
@@ -165,6 +166,10 @@ body {
   -ms-transition: transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
   transform-origin: bottom;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .fullPageMenu .menu ul li a {
@@ -248,17 +253,19 @@ header h2 {
   font-size: 30px;
   font-weight: 600;
   padding: 26px;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 header .progress {
   width: 100%;
-  height: 20px;
+  height: 10px;
   background-color: antiquewhite;
 }
 
 header .progress .progress-bar {
   width: 0%;
-  height: 20px;
+  height: 10px;
   background-image: linear-gradient(to right, #a136d3 0%, #a70722 100%);
 }
 
@@ -268,6 +275,19 @@ header.active {
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
+}
+
+@media screen and (max-width: 768px) {
+  header h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header h2 {
+    max-width: 189px;
+    font-size: 20px;
+  }
 }
 
 section {
@@ -310,12 +330,11 @@ section .row .col img {
 }
 
 section .row .col p {
-  font-size: 18px;
-  text-align: right;
+  font-size: 20px;
   padding: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1261px) {
   .row {
     flex-direction: column;
   }
@@ -336,8 +355,8 @@ footer {
   display: flex;
   opacity: 0;
   text-decoration: none;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   font-size: 30px;
   color: white;
   cursor: pointer;
@@ -348,7 +367,7 @@ footer {
   -o-border-radius: 50%;
   position: fixed;
   bottom: 0%;
-  right: 2%;
+  right: 15px;
   background-image: linear-gradient(to right, #a136d3 0%, #a70722 100%);
   align-items: center;
   justify-content: center;
@@ -362,6 +381,6 @@ footer {
 
 .totop.active {
   opacity: 1;
-  bottom: 5%;
+  bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */

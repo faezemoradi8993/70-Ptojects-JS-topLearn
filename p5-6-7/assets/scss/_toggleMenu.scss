@@ -9,8 +9,8 @@
   width: 50px;
   height: 50px;
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 32px;
+  right: 20px;
   color: rgb(255, 253, 253);
   z-index: 2;
   font-size: 40px;
@@ -87,6 +87,7 @@
                     right: 0;
                     width: 100%;
                     height: 100%;
+                    border-radius: 5px;
                     background-image: linear-gradient(to top, #a136d3 0%, #a70722 100%);
                     transform: scaleY(0);
                     -webkit-transform: scaleY(0);
@@ -99,8 +100,11 @@
                     -ms-transition: transform 0.3s ease-in-out;
                     -o-transition: transform 0.3s ease-in-out;
                     transform-origin: bottom;
-                   
-                }     
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+}     
 
                 a {
                     height: 100%;
